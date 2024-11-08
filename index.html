@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aston Martin Vantage</title>
+    <link
+      rel="shortcut icon"
+      href="/img/aston-martin.svg"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> J.Cars </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#specification" class="nav__link">SPECIFICATIONS</a>
+            </li>
+            <li><a href="#interior" class="nav__link">INTERIOR</a></li>
+            <li><a href="#exterior" class="nav__link">EXTERIOR</a></li>
+            <li><a href="#overall" class="nav__link">OVERALL</a></li>
+          </ul>
+
+          <!-- close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-function-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home">
+        <div class="home__container container">
+          <div class="home-vid">
+            <video
+              class="home__vid"
+              src="img/am.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </div>
+
+          <div class="home__data">
+            <h1 class="home__title">ASTON MARTIN</h1>
+            <h2 class="home__subtitle">Vantage</h2>
+            <div class="home__button">
+              <a href="#" class="home__btn-1">Configure</a>
+              <a href="#" class="home__btn-2">Enquire</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPECIFICATION -->
+      <section class="spec" id="specification">
+        <div class="spec__container container grid">
+          <div class="spec__image">
+            <img src="/img/ammodel.png" alt="model" class="spec__img" />
+          </div>
+
+          <div class="spec__data">
+            <div class="spec__gsap">
+              <h3 class="spec__title">POWER <span>PS</span></h3>
+              <p class="spec__desc">665</p>
+            </div>
+            <div class="spec__gsap">
+              <h3 class="spec__title">TOP SPEED <span>MPH</span></h3>
+              <p class="spec__desc">202</p>
+            </div>
+            <div class="spec__gsap">
+              <h3 class="spec__title">0-62 MPH <span>S</span></h3>
+              <p class="spec__desc">3.5</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- INTERIOR -->
+      <section class="interior" id="interior">
+        <h2 class="sect__title">INTERIOR</h2>
+
+        <div class="int__container swiper container grid">
+          <div class="swiper-wrapper">
+            <article class="int__card swiper-slide">
+              <img class="int__img" src="/img/amradio.jpg" alt="radio" />
+
+              <div class="int__data">
+                <h2 class="int__title">Connected Car</h2>
+                <a class="int__desc">
+                  Learn More <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="int__card swiper-slide">
+              <img class="int__img" src="/img/amstyle.jpg" alt="style" />
+
+              <div class="int__data">
+                <h2 class="int__title">Styling</h2>
+                <a class="int__desc">
+                  Learn More <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="int__card swiper-slide">
+              <img class="int__img" src="/img/amcentre.jpg" alt="console" />
+
+              <div class="int__data">
+                <h2 class="int__title">Centre Console</h2>
+                <a class="int__desc">
+                  Learn More <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="int__card swiper-slide">
+              <img class="int__img" src="/img/amtools.jpg" alt="tools" />
+
+              <div class="int__data">
+                <h2 class="int__title">Tools</h2>
+                <a class="int__desc">
+                  Learn More <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </article>
+
+            <article class="int__card swiper-slide">
+              <img class="int__img" src="/img/amaudio.jpg" alt="radio" />
+
+              <div class="int__data">
+                <h2 class="int__title">Audio</h2>
+                <a class="int__desc">
+                  Learn More <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- EXTERIOR -->
+      <section class="exterior" id="exterior">
+        <h2 class="sect__title">EXTERIOR</h2>
+
+        <div class="ext__container container grid swiper">
+          <div class="swiper-wrapper">
+            <article class="ext__card swiper-slide">
+              <img src="/img/amfront.jpg" alt="front" class="ext__img" />
+
+              <div class="ext__data">
+                <h2 class="ext__title">Front</h2>
+                <a href="#" class="ext__desc"
+                  >Learn More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+
+            <article class="ext__card swiper-slide">
+              <img src="/img/amside.jpg" alt="side" class="ext__img" />
+
+              <div class="ext__data">
+                <h2 class="ext__title">Side</h2>
+                <a href="#" class="ext__desc"
+                  >Learn More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+
+            <article class="ext__card swiper-slide">
+              <img src="/img/amback.jpg" alt="back" class="ext__img" />
+
+              <div class="ext__data">
+                <h2 class="ext__title">Back</h2>
+                <a href="#" class="ext__desc"
+                  >Learn More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+
+            <article class="ext__card swiper-slide">
+              <img src="/img/amwheel.jpg" alt="wheel" class="ext__img" />
+
+              <div class="ext__data">
+                <h2 class="ext__title">Wheel</h2>
+                <a href="#" class="ext__desc"
+                  >Learn More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+
+            <article class="ext__card swiper-slide">
+              <img src="/img/amlamp.jpeg" alt="lamp" class="ext__img" />
+
+              <div class="ext__data">
+                <h2 class="ext__title">Lamp</h2>
+                <a href="#" class="ext__desc"
+                  >Learn More <i class="ri-arrow-right-line"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- OVERALL -->
+      <section class="overall" id="overall">
+        <h2 class="sect__title">OVERALL</h2>
+
+        <div class="overall__container container">
+          <article class="overall__content color1 active">
+            <img src="/img/amcolor.jpeg" alt="color" class="over1__img" />
+
+            <div class="overall__data">
+              <h2 class="overall__title">Aston Martin</h2>
+              <h1 class="overall__subtitle">VANTAGE COUPE</h1>
+              <h3 class="overall__endtitle">Cosmopolitan Yellow</h3>
+              <p class="overall__desc">
+                Bold yet luxurious. COntrasted dark accents hint at the engaged
+                character within, to revel at the limit.
+              </p>
+            </div>
+          </article>
+
+          <article class="overall__content color2">
+            <img src="/img/amcolor2.jpeg" alt="color" class="over__img" />
+
+            <div class="overall__data">
+              <h2 class="overall__title">Aston Martin</h2>
+              <h1 class="overall__subtitle">VANTAGE COUPE</h1>
+              <h3 class="overall__endtitle">Podium Green</h3>
+              <p class="overall__desc">
+                Dynamism at its core. Inspired by racing, the combination of
+                Podium Green and Lime celebrates Aston Martin's racing linage
+                guiding the creation of Vantage.
+              </p>
+            </div>
+          </article>
+
+          <article class="overall__content color3">
+            <img src="/img/amcolor3.jpeg" alt="color" class="over__img" />
+
+            <div class="overall__data">
+              <h2 class="overall__title">Aston Martin</h2>
+              <h1 class="overall__subtitle">VANTAGE COUPE</h1>
+              <h3 class="overall__endtitle">Aluminate Silver</h3>
+              <p class="overall__desc">
+                Aluminite Silver radiates a mesmerising sparkle from within.
+                Dynamic and sophisticated, its tremendous light to dark tones
+                accentuate the form of Vantage.
+              </p>
+            </div>
+          </article>
+
+          <article class="overall__content color4">
+            <img src="/img/amcolor4.jpeg" alt="color" class="over__img" />
+
+            <div class="overall__data">
+              <h2 class="overall__title">Aston Martin</h2>
+              <h1 class="overall__subtitle">VANTAGE COUPE</h1>
+              <h3 class="overall__endtitle">Cosmos Orange</h3>
+              <p class="overall__desc">
+                Cosmos Orange contains a unique chromaflare technology creating
+                a flow of movemont. Changing light conditions produce a
+                sophisticated hue movement to encapsulate the engaging dynamism
+                of Vantage
+              </p>
+            </div>
+          </article>
+
+          <article class="overall__content color5">
+            <img src="/img/amcolor5.jpeg" alt="color" class="over__img" />
+
+            <div class="overall__data">
+              <h2 class="overall__title">Aston Martin</h2>
+              <h1 class="overall__subtitle">VANTAGE COUPE</h1>
+              <h3 class="overall__endtitle">Ion Blue</h3>
+              <p class="overall__desc">
+                Performance meets sophistication. The visual depth of Ion Blue
+                flows over sculpted lines, whilst blue tinted carbon fibre
+                displays the performance laid beneath.
+              </p>
+            </div>
+          </article>
+
+          <div class="overall__icon">
+            <img
+              src="/img/amcolor.jpeg"
+              alt="color"
+              class="iconic icon-1 active"
+            />
+            <img src="/img/amcolor2.jpeg" alt="color" class="iconic icon-2" />
+            <img src="/img/amcolor3.jpeg" alt="color" class="iconic icon-3" />
+            <img src="/img/amcolor4.jpeg" alt="color" class="iconic icon-4" />
+            <img src="/img/amcolor5.jpeg" alt="color" class="iconic icon-5" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer container">
+      <h1 class="footer__title">J.CARS</h1>
+
+      <div class="footer__section">
+        <a href="#" class="footer__subtitle">Navigation</a>
+        <a href="#" class="footer__subtitle">Contact</a>
+        <a href="#" class="footer__subtitle">Corporate</a>
+        <a href="#" class="footer__subtitle">Find a dealer</a>
+      </div>
+
+      <div class="footer__social">
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-x-line"></i></a>
+        <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+        <a href="#"><i class="ri-tiktok-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+        <a href="#"><i class="ri-youtube-fill"></i></a>
+      </div>
+
+      <div class="footer__terms">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+      </div>
+
+      <p class="footer__desc">&#169; J.Cars 2024</p>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
